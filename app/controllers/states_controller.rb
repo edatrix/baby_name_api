@@ -4,8 +4,4 @@ class StatesController < ApplicationController
     @states = State.all
   end
 
-  def import
-    State.import(params[:file])
-  end
-
 end
