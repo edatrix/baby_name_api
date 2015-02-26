@@ -1,6 +1,6 @@
 require "csv"
 
-class StateSeeder
+class NameLineSeeder
 
   def self.open_file(filename)
     CSV.open(filename, :headers => [], :header_converters => :symbol)
@@ -14,19 +14,19 @@ class StateSeeder
     source_path = Rails.root.join('db', 'pages')
 
     Dir.glob("./db/seeds/source/*").each do |page|
-      data = StateSeeder.parse_file(page)
-      data.map { |line| build_states(line, out) }
+      data = NameLineSeeder.parse_file(page)
+      data.map { |line| build_name_lines(line, out) }
     end
   end
 
-  def self.build_states(line, out)
-    state = State.create!(:id => line[:id],
-                          :state => line[:state],
+  def self.build_name_lines(line, out)
+    state = NameLine.create!(:id => line[:id],
+                          :state_name => line[:state_name],
                           :sex => line[:sex],
                           :year => line[:year],
                           :name => line[:name],
                           :count => line[:count])
-    out.puts line[:state]
+    out.puts line[:state_name]
   end
 
 end

@@ -1,3 +1,3 @@
-require "./db/seeds/state_seeder"
+require "./db/seeds/name_line_seeder"
 
-StateSeeder.seed
+NameLineSeeder.seed
