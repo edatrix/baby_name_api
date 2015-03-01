@@ -11,21 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150223030501) do
+ActiveRecord::Schema.define(version: 20150226153907) do
 
-  create_table "state_fetchers", force: true do |t|
+  create_table "nameline", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
-
-  create_table "states", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "state"
+    t.string   "state_name"
     t.string   "sex"
     t.integer  "year"
     t.string   "name"
     t.integer  "count"
+  end
+
+  create_table "state_fetchers", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
