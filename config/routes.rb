@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
 
-  resources :states
+  resources :namelines
 
   namespace :api, :defaults => {:format => :json} do
     namespace :v1 do
-      resources :states
+      resources :namelines
     end
   end
 

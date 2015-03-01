@@ -1,4 +1,4 @@
-class StateFetcher < ActiveRecord::Base
+class NamelineFetcher < ActiveRecord::Base
 
   def self.connection
     Faraday.new("http://localhost:3000/api/v1/states") do |faraday|
@@ -10,7 +10,7 @@ class StateFetcher < ActiveRecord::Base
 
   def self.find(id)
     response = connection.get "#{id}.json"
-    State.new(JSON.parse(response.body))
+    Nameline.new(JSON.parse(response.body))
   end
 
 end

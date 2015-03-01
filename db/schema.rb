@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150226153907) do
+ActiveRecord::Schema.define(version: 20150301035125) do
 
-  create_table "nameline", force: true do |t|
+  create_table "namelines", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "state_name"
