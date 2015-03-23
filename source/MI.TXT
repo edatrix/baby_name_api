@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 MI,F,1910,Helen,368
 MI,F,1910,Mary,349
 MI,F,1910,Margaret,272

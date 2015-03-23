@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 MS,F,1910,Mary,762
 MS,F,1910,Annie,354
 MS,F,1910,Willie,208

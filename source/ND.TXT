@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 ND,F,1910,Mary,85
 ND,F,1910,Alice,61
 ND,F,1910,Margaret,61

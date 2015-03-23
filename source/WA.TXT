@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 WA,F,1910,Helen,156
 WA,F,1910,Dorothy,122
 WA,F,1910,Mary,112

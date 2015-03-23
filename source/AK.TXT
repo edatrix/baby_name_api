@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 AK,F,1910,Mary,14
 AK,F,1910,Annie,12
 AK,F,1910,Anna,10

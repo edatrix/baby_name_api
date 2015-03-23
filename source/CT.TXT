@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 CT,F,1910,Mary,304
 CT,F,1910,Helen,170
 CT,F,1910,Anna,131

@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 SD,F,1910,Helen,60
 SD,F,1910,Mary,58
 SD,F,1910,Ruth,52

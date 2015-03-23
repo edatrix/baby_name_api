@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 GA,F,1910,Mary,841
 GA,F,1910,Annie,553
 GA,F,1910,Mattie,320

@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 SC,F,1910,Mary,602
 SC,F,1910,Annie,305
 SC,F,1910,Louise,173

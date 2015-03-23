@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 WY,F,1910,Mary,27
 WY,F,1910,Margaret,22
 WY,F,1910,Helen,13

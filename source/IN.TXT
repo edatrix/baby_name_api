@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 IN,F,1910,Mary,619
 IN,F,1910,Helen,324
 IN,F,1910,Ruth,238

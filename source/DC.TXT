@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 DC,F,1910,Mary,80
 DC,F,1910,Margaret,72
 DC,F,1910,Helen,52

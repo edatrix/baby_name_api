@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 AZ,F,1910,Mary,74
 AZ,F,1910,Maria,29
 AZ,F,1910,Alice,27

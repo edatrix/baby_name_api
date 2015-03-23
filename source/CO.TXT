@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 CO,F,1910,Mary,193
 CO,F,1910,Helen,112
 CO,F,1910,Dorothy,87

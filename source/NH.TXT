@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 NH,F,1910,Mary,50
 NH,F,1910,Dorothy,39
 NH,F,1910,Alice,35

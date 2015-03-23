@@ -1,3 +1,4 @@
+state_name,sex,year,name,count
 UT,F,1910,Mary,57
 UT,F,1910,Dorothy,38
 UT,F,1910,Helen,36
