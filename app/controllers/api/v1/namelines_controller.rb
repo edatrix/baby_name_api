@@ -1,7 +1,7 @@
 class API::V1::NamelinesController < ApplicationController
 
-  # def index
-
-  # end
+  def index
+    # @namelines = Nameline.all
+  end
 
 end

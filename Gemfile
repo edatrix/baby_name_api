@@ -8,6 +8,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'pg'
 gem 'rails_12factor'
 gem 'postgres-copy'
+gem 'rest-client'
 
 gem 'jquery-rails'
 gem 'turbolinks'

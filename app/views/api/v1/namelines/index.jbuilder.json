@@ -1,0 +1,1 @@
+json.namelines @namelines, :state_name, :sex, :year, :name, :count
